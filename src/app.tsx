@@ -15,6 +15,7 @@ export default function App() {
 
   return (
     <MetaProvider>
+      My P-shop
       <QueryClientProvider client={queryClient}>
         <StoreProvider id="st_55mvdfu3yfoq">
           <Router
